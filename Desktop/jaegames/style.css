@@ -1,0 +1,228 @@
+/*font-family: 'Boogaloo', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Timmana', sans-serif;
+*/
+html {
+    scroll-behavior: auto;
+}
+
+ 
+h1 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 6rem;
+    color: #fbeb2b;
+}
+h2 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 4rem;
+    color: white;
+}
+@media only screen and (max-width: 650px) {
+    #test {
+font-size: 4rem;
+    }
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    background: white;
+}
+::selection {
+    background:#fbea2b6d;
+  }
+#order_button {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+#order_button:hover {
+    background-color:white;
+    color: black;
+    font-weight: 700;
+    transform: scale(1.1);
+    transition: .2s ease-in;
+}
+#checkout_nav {
+    color: rgb(139, 139, 139);
+    font-weight: 700;
+}
+#checkout_nav:hover {
+    background-color: white;
+    color: black;
+}
+
+#header {
+    background-color: #594A47;
+    color: #F2EFE5;
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: none;
+    
+  } 
+#toggle_nav_icon {
+      font-size: 2rem;
+      color: #594A47;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }
+  
+.bg-cover {
+    background-attachment: static;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.header-bg-cover {
+  background-attachment: static;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px !important;
+  padding-top: 50px;
+}
+#about-game {
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 980px) { 
+    #about-game {
+        padding: 50px !important;
+    }
+}
+
+#about-game p {
+    color: black;
+    padding: 15px;
+
+}
+
+#about-game h2 {
+  background-color: #fbea2b50;
+  color: black;
+}
+#instructions {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+@media only screen and (min-width: 980px) { 
+    #instructions {
+        padding: 50px !important;
+    }
+}
+
+#instructions p {
+    color: black;
+    padding: 15px;
+
+}
+
+#instructions h2 {
+    background-color: #fbea2b50;
+    color: black;
+
+}
+
+.instructions {
+    text-align: center;
+}
+@media only screen and (max-width: 980px) { 
+  .instructions h1{
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+  }
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  footer {
+    color: black;
+    text-align: center;
+}
